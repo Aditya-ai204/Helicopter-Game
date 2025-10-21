@@ -1,4 +1,3 @@
-# Helicopter in Python!
 import random
 
 import pygame
@@ -135,4 +134,5 @@ while run:
         screen.blit(font.render('Press Enter to Restart', True, 'black'), (300, 15))
         screen.blit(font.render('Press Enter to Restart', True, 'black'), (300, 565))
     pygame.display.flip()
+
 pygame.quit()
